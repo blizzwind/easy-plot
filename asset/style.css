@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+button {
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+#panel {
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  left: 0;
+}
+#plot {
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  right: 0;
+}
+#data-z {
+  display: none;
+}
+#csv {
+  display: none;
+}
+#tmp {
+  display: none;
+}
+.m {
+  width: 50%;
+}

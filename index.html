@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="asset/skeleton.min.css">
+<link rel="stylesheet" href="asset/style.css">
+<title>Easy Plot</title>
+</head>
+<body>
+<div id="panel">
+<button class="m" onclick="set2D()">2D</button><button class="m" onclick="set3D()">3D</button>
+<input id="data-x" type="text">
+<input id="data-y" type="text">
+<input id="data-z" type="text">
+<button onclick="plot()">PLOT</button>
+<button onclick="csv()">CSV</button><input id="csv" type="file">
+</div>
+<div id="plot"></div>
+<div id="tmp"></div>
+<script src="asset/plotly.min.js"></script>
+<script src="asset/jquery.min.js"></script>
+<script src="asset/jquery.csv.min.js"></script>
+<script src="asset/script.js"></script>
+</body>
+</html>
